@@ -6,7 +6,7 @@ st.sidebar.title("Chọn trang hệ thống")
 page = st.sidebar.radio("", ["Order", "Admin"])
 
 if page == "Order":
-    st.title("🍽️ Hệ thống Order Nhà Hàng_Dr Bình")
+    st.title("🍽️ Hệ thống Order Nhà Hàng_Ms Quỳnh")
     st.caption("Ghi nhận order nhanh chóng và chính xác theo thời gian thực")
 
     col1, col2 = st.columns([1, 1])
